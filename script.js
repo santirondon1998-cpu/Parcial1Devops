@@ -23,7 +23,7 @@ form.addEventListener('submit', (e) => {
   displayBudget.textContent = `$${Number(budget).toLocaleString()}`;
   displayDays.textContent = days;
 
-  currentProgress = 0;
+  currentProgress = 10;
   updateProgressBar();
 
   dashboard.classList.remove('hidden');
